@@ -2,8 +2,9 @@
   "name": "@probot/example-vercel",
   "version": "1.0.0",
   "private": true,
-  "description": "Probot & Google Cloud Functions example",
   "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc",
     "start": "probot run ./app.js",
     "test": "node test.js"
   },
@@ -16,6 +17,7 @@
   "devDependencies": {
     "nock": "^13.2.6",
     "smee-client": "^1.2.3",
+    "typescript": "^4.7.3",
     "uvu": "^0.5.3"
   },
   "release": {
