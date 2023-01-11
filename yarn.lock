@@ -273,7 +273,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@probot/example-vercel@workspace:."
   dependencies:
-    nock: ^13.2.6
+    nock: ^13.3.0
     probot: ^12.2.4
     smee-client: ^1.2.3
     typescript: ^4.7.3
@@ -2237,15 +2237,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nock@npm:^13.2.6":
-  version: 13.2.6
-  resolution: "nock@npm:13.2.6"
+"nock@npm:^13.3.0":
+  version: 13.3.0
+  resolution: "nock@npm:13.3.0"
   dependencies:
     debug: ^4.1.0
     json-stringify-safe: ^5.0.1
     lodash: ^4.17.21
     propagate: ^2.0.0
-  checksum: d135a8036b2feb41c0696c585682f7252f6cd3232ff686efe54a39f979f063fcc178636dfdf27aba07f653091e2812014db41ed6f5f250fdd2ee2948035a4203
+  checksum: 118d04e95a17f493898a82b5dfecc03762776e1980d9c3b2077479747e60b77109c5f7c0df969d1a8f6039260abe5961733553a5841f0f627bb35238576a0009
   languageName: node
   linkType: hard
 
